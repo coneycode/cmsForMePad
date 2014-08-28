@@ -1,0 +1,22 @@
+<h3>专题列表</h3>
+<admin:panel >
+  <admin:table id="table" show="编号|50,名称,类型|80,排序|80,操作|130"  class="m-table-border">
+    <foreach name="list" item="vo">
+      <tr>
+        <td>{$vo.special_id}</td>
+        <td><a href="{""}" target="_blank">{$vo.s_title}</a></td>
+        <td>""</td>
+        <td>""</td>
+        <td>
+        <a class="u-btn u-btn-primary u-btn-small" href="{""}">修改</a>
+        <a class="u-btn u-btn-danger u-btn-small del" href="javascript:;" url="" data="">删除</a>
+        </td>
+      </tr>
+    </foreach>
+  </admin:table>
+</admin:panel>
+<script>
+Do.ready('base',function() {
+  $('#table').duxTable({});
+});
+</script> 

@@ -1,0 +1,41 @@
+<h3>{$name}专题</h3>
+<admin:panel >
+  <admin:form url="{:U()}" method="post" id="form" >
+    <admin:row>
+      <admin:grid item="5-5">
+        </admin:formrow>
+        <admin:formrow title="专题名称" tip="当前专题名称">
+          <admin:text name="s_title" value="{$info.s_title}" len="250" datatype="*"  />
+        </admin:formrow>
+        <!-- <admin:formrow title="专题顺序" tip="专题列表调用时的顺序，数字越小越靠前">
+          <admin:text name="sequence"  value="{$info.sequence|default='1'}"  width="small" type="number" len="10" datatype="n" />
+        </admin:formrow> -->
+        <admin:formrow title="专题图片" tip=""  >
+          <admin:text name="image" type="text" value="{$info.image}" len="250" width="medium" />
+          <a class="u-btn u-btn-primary u-img-upload" data="image" preview="image-preview" href="javascript:;" id="upload">上传</a> <a class="u-btn u-btn-primary"href="javascript:;" id="image-preview">预览</a> </admin:formrow>
+        <admin:formrow title="专题首页图片" tip=""  >
+          <admin:text name="image_small" type="text" value="{$info.image_small}" len="250" width="medium" />
+          <a class="u-btn u-btn-primary u-img-upload" data="image_small" preview="image-preview-small" href="javascript:;" id="upload-small">上传</a> <a class="u-btn u-btn-primary"href="javascript:;" id="image-preview-small">预览</a> </admin:formrow>
+        <!-- <admin:formrow title="专题关键词" tip="当前专题的关键词">
+          <admin:text name="keywords"  value="{$info.keywords}" len="250" />
+        </admin:formrow> -->
+        <admin:formrow title="专题描述" tip="当前专题的描述信息" >
+          <admin:textarea name="s_description" rows="5" >{$info.s_description}</admin:textarea>
+	</admin:formrow>
+        <admin:formrow title="更新时间" tip="请按照格式更新发布时间" >
+	  <admin:text name="update_time" value="{:date('Y/m/d H:i')}" len="250" datatype="*" class="u-time" />
+	</admin:formrow>
+        <!-- <admin:formrow title="专题状态" tip="隐藏后在调用专题列表时不显示">
+          <admin:radio name="show" item="显示,隐藏" value="1,0" checked="$info['show']" isset="1" />
+        </admin:formrow> -->
+    </admin:grid>
+    </admin:row>
+    <admin:formsubmit/>
+    <admin:text name="special_id" type="hidden"  value="{$info.special_id}"  />
+  </admin:form>
+</admin:panel>
+<script>
+Do.ready('base',function() {
+	$('#form').duxFormPage();
+});
+</script> 

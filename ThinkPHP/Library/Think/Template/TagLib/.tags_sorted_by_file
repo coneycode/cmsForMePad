@@ -1,0 +1,95 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+Admin	Admin.class.php	/^class Admin extends TagLib{$/;"	c
+_assigndown	Admin.class.php	/^    public function _assigndown($tag) {$/;"	f
+_checkbox	Admin.class.php	/^    public function _checkbox($tag) {$/;"	f
+_form	Admin.class.php	/^    public function _form($tag,$content) {$/;"	f
+_formrow	Admin.class.php	/^    public function _formrow($tag,$content) {$/;"	f
+_formsubmit	Admin.class.php	/^    public function _formsubmit($tag) {$/;"	f
+_grid	Admin.class.php	/^    public function _grid($tag,$content) {$/;"	f
+_panel	Admin.class.php	/^    public function _panel($tag,$content) {$/;"	f
+_radio	Admin.class.php	/^    public function _radio($tag) {$/;"	f
+_row	Admin.class.php	/^    public function _row($tag,$content) {$/;"	f
+_select	Admin.class.php	/^    public function _select($tag) {$/;"	f
+_table	Admin.class.php	/^    public function _table($tag,$content) {$/;"	f
+_tablefoot	Admin.class.php	/^    public function _tablefoot($tag) {$/;"	f
+_tabletool	Admin.class.php	/^    public function _tabletool($tag,$content) {$/;"	f
+_text	Admin.class.php	/^    public function _text($tag) {$/;"	f
+_textarea	Admin.class.php	/^    public function _textarea($tag,$content) {$/;"	f
+action	Admin.class.php	/^        $action = string_to_bool($tag['action']);$/;"	v
+body	Admin.class.php	/^        $body      = $tag['body']?false:true;  \/\/body区域$/;"	v
+checked	Admin.class.php	/^        $checked    = $tag['checked'];    \/\/选中值$/;"	v
+class	Admin.class.php	/^        $class      = $tag['class'];                    \/\/样式名$/;"	v
+class	Admin.class.php	/^        $class      = $tag['class'];                \/\/附加样式$/;"	v
+class	Admin.class.php	/^        $class      = isset($tag['class'])?$tag['class']:'';                \/\/样式名$/;"	v
+class	Admin.class.php	/^        $class = $tag['class'];$/;"	v
+colNum	Admin.class.php	/^        $colNum     = count($show);$/;"	v
+content	Admin.class.php	/^        $content      = $content;                \/\/值$/;"	v
+data	Admin.class.php	/^        $data      = $tag['data'];           \/\/下拉数据$/;"	v
+datatype	Admin.class.php	/^        $datatype     = isset($tag['datatype'])?'datatype="'.$tag['datatype'].'"':''; \/\/表单验证$/;"	v
+errormsg	Admin.class.php	/^        $errormsg     = isset($tag['errormsg'])?'errormsg="'.$tag['errormsg'].'"':''; \/\/验证失败$/;"	v
+ext	Admin.class.php	/^        $ext      = $tag['ext'];                \/\/扩展信息 $/;"	v
+fields	Admin.class.php	/^        $fields = array();$/;"	v
+filter	Admin.class.php	/^        $filter = string_to_bool($tag['filter']);$/;"	v
+filterHtml	Admin.class.php	/^            $filterHtml = ' $/;"	v
+html	Admin.class.php	/^        $html = '$/;"	v
+html	Admin.class.php	/^        $html = '';$/;"	v
+html	Admin.class.php	/^        $html = '<div class="m-table-bar">';$/;"	v
+html	Admin.class.php	/^        $html = '<div class="m-table-tool f-cb">'.$searchHtml.$filterHtml.'<\/div>';$/;"	v
+html	Admin.class.php	/^        $html = '<input name="'.$name.'" type="'.$type.'"  class="form-element '.$width. ' ' .$class.' " id="'.$id.'" value="'.$value.'" '.$len.' '.$ext .' '.$datatype.' '.$errormsg.'>';$/;"	v
+html	Admin.class.php	/^        $html = '<select name="'.$name.'" id="'.$id.'" '.$ext.' class="form-element '.$class.'">';$/;"	v
+html	Admin.class.php	/^        $html = '<textarea name="'.$name.'" type="text"  class="form-element '.$width. ' ' .$class.'" id="'.$id.'" value="'.$value.'" '.$rows.' '.$ext .' '.$datatype.' '.$errormsg.'>'.$content.'<\/textarea>';$/;"	v
+icon	Admin.class.php	/^        $icon      = isset($tag['icon'])?'<span class="icon"><i class="u-icon-'.$tag['icon'].'"><\/i><\/span>':'';$/;"	v
+id	Admin.class.php	/^        $id         = $tag['id'];                       \/\/表格ID$/;"	v
+id	Admin.class.php	/^        $id         = isset($tag['id'])?$tag['id']:$name;                \/\/ID$/;"	v
+id	Admin.class.php	/^        $id      = $tag['id'];                \/\/id$/;"	v
+isset	Admin.class.php	/^          $isset = 'if(!isset('.$checked.')){ '.$checked.'= "'.$isset.'"; }';$/;"	v
+isset	Admin.class.php	/^        $isset    = $tag['isset'];    \/\/检测存在$/;"	v
+item	Admin.class.php	/^        $item      = $tag['item'];                \/\/分割$/;"	v
+item	Admin.class.php	/^        $item      = isset($tag['item'])?$tag['item']:'';                 \/\/项目名$/;"	v
+item	Admin.class.php	/^        $item      = isset($tag['item'])?$tag['item']:'';                \/\/项目名$/;"	v
+item	Admin.class.php	/^        $item  = isset($tag['item'])?$tag['item']:'';  \/\/项目名$/;"	v
+item	Admin.class.php	/^        $item = explode(',', $tag['item']);       \/\/显示数据$/;"	v
+items	Admin.class.php	/^              $items = explode(',', $item);$/;"	v
+items	Admin.class.php	/^          $items = explode(',', $item);$/;"	v
+items	Admin.class.php	/^        $items = explode(',', $item);$/;"	v
+key	Admin.class.php	/^              foreach ($items as $key => $vo) {$/;"	v
+key	Admin.class.php	/^          foreach ($items as $key => $vo) {$/;"	v
+key	Admin.class.php	/^        foreach ($items as $key => $vo) {$/;"	v
+keyword	Admin.class.php	/^        $keyword = $tag['keyword'];$/;"	v
+len	Admin.class.php	/^        $len     = isset($tag['len'])?'maxlength="'.$tag['len'].'"':''; \/\/最大长度$/;"	v
+method	Admin.class.php	/^        $method      = $tag['method'];                \/\/提交方式$/;"	v
+name	Admin.class.php	/^        $name       = $tag['name'];                \/\/名称$/;"	v
+name	Admin.class.php	/^        $name     = $tag['name'];                \/\/按钮名$/;"	v
+name	Admin.class.php	/^     * 格式： <admin:checkbox $name="name" $item=""  $value="" \/>$/;"	v
+name	Admin.class.php	/^     * 格式： <admin:radio $name="name" $item=""  $value="" \/>$/;"	v
+parseStr	Admin.class.php	/^        $parseStr   = '<div class="m-table-mobile"><table id="'.$id.'" class="m-table '.$class.'">';$/;"	v
+property	Admin.class.php	/^            $property = explode('|',$field[0]);$/;"	v
+rows	Admin.class.php	/^        $rows     = isset($tag['rows'])?'rows="'.$tag['rows'].'"':''; \/\/行数$/;"	v
+search	Admin.class.php	/^            $search = string_to_bool($tag['search']);$/;"	v
+search	Admin.class.php	/^            $search = true;$/;"	v
+searchContent	Admin.class.php	/^        $searchContent = $tag['search_html'];$/;"	v
+searchHtml	Admin.class.php	/^            $searchHtml = '$/;"	v
+selectHtml	Admin.class.php	/^            $selectHtml = '<select name="selectAction" id="selectAction" class="form-element">';$/;"	v
+selected	Admin.class.php	/^        $selected      = $tag['selected'];              \/\/选中值$/;"	v
+show	Admin.class.php	/^            $show   = $tag['show'];$/;"	v
+show	Admin.class.php	/^            $show   = $this->tpl->get(substr($tag['show'],1));$/;"	v
+show	Admin.class.php	/^        $show       = explode(',',$show);                \/\/列表显示字段列表$/;"	v
+tags	Admin.class.php	/^    protected $tags   =  array($/;"	v
+target	Admin.class.php	/^        $target     = isset($tag['target'])?$tag['target']:'请选择';                \/\/赋值目标$/;"	v
+tip	Admin.class.php	/^        $tip      = $tag['tip'];                \/\/提示信息$/;"	v
+title	Admin.class.php	/^        $title      = $tag['title'];                \/\/标题$/;"	v
+type	Admin.class.php	/^        $type      = isset($tag['type'])?$tag['type']:'text';         \/\/输入框属性$/;"	v
+url	Admin.class.php	/^        $url      = $tag['url'];                \/\/URL$/;"	v
+url	Admin.class.php	/^        $url = isset($tag['url'])?$tag['url']:'{:U()}';$/;"	v
+value	Admin.class.php	/^              $value = explode(',', $value);$/;"	v
+value	Admin.class.php	/^          $value = explode(',', $value);$/;"	v
+value	Admin.class.php	/^        $value      = $tag['value'];                \/\/值$/;"	v
+value	Admin.class.php	/^        $value      = isset($tag['value'])?$tag['value']:'';                \/\/选项值$/;"	v
+value	Admin.class.php	/^        $value      = isset($tag['value'])?$tag['value']:''; \/\/选项值$/;"	v
+value	Admin.class.php	/^        $value = explode(',', $value);$/;"	v
+width	Admin.class.php	/^        $width = isset($tag['width'])?'u-width-'.$tag['width']:'u-width-large';  \/\/文本框宽度$/;"	v
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

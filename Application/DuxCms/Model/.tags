@@ -1,0 +1,404 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CategoryModel	CategoryModel.class.php	/^class CategoryModel extends Model {$/;"	c
+ContentModel	ContentModel.class.php	/^class ContentModel extends Model {$/;"	c
+ContentToolsModel	ContentToolsModel.class.php	/^class ContentToolsModel {$/;"	c
+FieldDataModel	FieldDataModel.class.php	/^class FieldDataModel extends Model {$/;"	c
+FieldExpandModel	FieldExpandModel.class.php	/^class FieldExpandModel extends Model {$/;"	c
+FieldFormModel	FieldFormModel.class.php	/^class FieldFormModel extends Model {$/;"	c
+FieldModel	FieldModel.class.php	/^class FieldModel extends Model {$/;"	c
+FieldsetExpandModel	FieldsetExpandModel.class.php	/^class FieldsetExpandModel extends Model {$/;"	c
+FieldsetFormModel	FieldsetFormModel.class.php	/^class FieldsetFormModel extends Model {$/;"	c
+FieldsetModel	FieldsetModel.class.php	/^class FieldsetModel extends Model {$/;"	c
+FileModel	FileModel.class.php	/^class FileModel extends Model {$/;"	c
+FragmentModel	FragmentModel.class.php	/^class FragmentModel extends Model {$/;"	c
+PositionModel	PositionModel.class.php	/^class PositionModel extends Model {$/;"	c
+SpecialModel	SpecialModel.class.php	/^class SpecialModel extends Model {$/;"	c
+TagsHasModel	ContentModel.class.php	/^        $TagsHasModel = D('DuxCms\/TagsHas');$/;"	v
+TagsHasModel	TagsHasModel.class.php	/^class TagsHasModel extends Model {$/;"	c
+TagsModel	ContentModel.class.php	/^        $TagsModel = D('DuxCms\/Tags');$/;"	v
+TagsModel	TagsModel.class.php	/^class TagsModel extends Model {$/;"	c
+_auto	CategoryModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	ContentModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	FieldFormModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	FieldModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	FieldsetFormModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	FileModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	FragmentModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	PositionModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	SpecialModel.class.php	/^    \/\/ protected $_auto = array ($/;"	v
+_auto	TagsHasModel.class.php	/^    protected $_auto = array ($/;"	v
+_auto	TagsModel.class.php	/^    protected $_auto = array ($/;"	v
+_validate	CategoryModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	ContentModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	FieldModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	FieldsetFormModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	FieldsetModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	FragmentModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	PositionModel.class.php	/^    protected $_validate = array($/;"	v
+_validate	SpecialModel.class.php	/^    \/\/ protected $_validate = array($/;"	v
+addData	TagsHasModel.class.php	/^    public function addData($data){$/;"	f
+autoRules	FieldDataModel.class.php	/^        $autoRules = array();$/;"	v
+body	ContentToolsModel.class.php	/^                    $body = str_replace($value,$getFileUrl,$body);$/;"	v
+body	ContentToolsModel.class.php	/^        $body=htmlspecialchars_decode($content);$/;"	v
+cat	CategoryModel.class.php	/^        $cat = $this->loadList('',$classId);$/;"	v
+cat	CategoryModel.class.php	/^        $cat = new \\Common\\Util\\Category(array('class_id', 'parent_id', 'name', 'cname'));$/;"	v
+classId	CategoryModel.class.php	/^        $classId = I('post.class_id');$/;"	v
+classId	CategoryModel.class.php	/^    public function loadList($where = array(), $classId=0){$/;"	v
+classId	ContentModel.class.php	/^        $classId = $data['class_id'];$/;"	v
+classInfo	FieldsetModel.class.php	/^        $classInfo=D($classInfo['app'].'\/Category'.$classInfo['app'])->getInfo($classId);$/;"	v
+classInfo	FieldsetModel.class.php	/^        $classInfo=D('DuxCms\/Category')->getInfo($classId);$/;"	v
+config	FieldModel.class.php	/^        $config=array();$/;"	v
+config	FileModel.class.php	/^    public function uploadData($files, $config = array())$/;"	v
+content	ContentModel.class.php	/^        $content = I('post.content');$/;"	v
+content	ContentToolsModel.class.php	/^        $content = htmlspecialchars_decode($content);$/;"	v
+content	ContentToolsModel.class.php	/^    public function getKerword($title, $content = '')$/;"	v
+contentId	ContentModel.class.php	/^            $contentId = $this->add($data);$/;"	v
+contentId	ContentModel.class.php	/^        $contentId = I('post.content_id');$/;"	v
+countContentList	TagsHasModel.class.php	/^    public function countContentList($where){$/;"	f
+countList	CategoryModel.class.php	/^    public function countList($where = array()){$/;"	f
+countList	ContentModel.class.php	/^    public function countList($where = array()){$/;"	f
+countList	FieldDataModel.class.php	/^    public function countList($where){$/;"	f
+countList	FragmentModel.class.php	/^    public function countList(){$/;"	f
+countList	TagsHasModel.class.php	/^    public function countList($map){$/;"	f
+countList	TagsModel.class.php	/^    public function countList($where = array()){$/;"	f
+data	CategoryModel.class.php	/^        $data = $cat->getPath($data, $classId);$/;"	v
+data	CategoryModel.class.php	/^        $data = $this->create();$/;"	v
+data	CategoryModel.class.php	/^        $data = $this->loadData($where);$/;"	v
+data	CategoryModel.class.php	/^        $data = $this->loadList('', $classId);$/;"	v
+data	CategoryModel.class.php	/^        $data=$cat->getTree($data, intval($classId));$/;"	v
+data	ContentModel.class.php	/^                $data = array();$/;"	v
+data	ContentModel.class.php	/^        $data = $this->create();$/;"	v
+data	ContentToolsModel.class.php	/^        $data= \\Common\\Util\\Http::doGet('http:\/\/keyword.discuz.com\/related_kw.html?ics=utf-8&ocs=utf-8&title='.urlencode($title).'&content='.urlencode($content),10);$/;"	v
+data	FieldDataModel.class.php	/^                $data = array();$/;"	v
+data	FieldDataModel.class.php	/^                $data = explode(",",trim($data));$/;"	v
+data	FieldDataModel.class.php	/^        $data = $_POST['Fieldset_'.$field];$/;"	v
+data	FieldDataModel.class.php	/^        $data = $this->auto($autoRules)->validate($valiRules)->create($data);$/;"	v
+data	FieldDataModel.class.php	/^        $data = array();$/;"	v
+data	FieldExpandModel.class.php	/^        $data = $this->create();$/;"	v
+data	FieldExpandModel.class.php	/^        $data = $this->table("__FIELD__ as A")$/;"	v
+data	FieldFormModel.class.php	/^        $data = $this->create();$/;"	v
+data	FieldFormModel.class.php	/^        $data = $this->table("__FIELD__ as A")$/;"	v
+data	FieldModel.class.php	/^        $data = $this->create();$/;"	v
+data	FieldsetExpandModel.class.php	/^        $data = $this->create();$/;"	v
+data	FieldsetExpandModel.class.php	/^        $data = $this->table("__FIELDSET__ as A")$/;"	v
+data	FieldsetFormModel.class.php	/^        $data = $this->create();$/;"	v
+data	FieldsetFormModel.class.php	/^        $data = $this->table("__FIELDSET__ as A")$/;"	v
+data	FieldsetModel.class.php	/^        $data = $this->create();$/;"	v
+data	FragmentModel.class.php	/^        $data = $this->create();$/;"	v
+data	PositionModel.class.php	/^        $data = $this->create();$/;"	v
+data	SpecialModel.class.php	/^        $data = $this->create();$/;"	v
+data	TagsHasModel.class.php	/^        $data   = $this->distinct(true)$/;"	v
+delData	CategoryModel.class.php	/^    public function delData($classId)$/;"	f
+delData	ContentModel.class.php	/^    public function delData($contentId){$/;"	f
+delData	FieldDataModel.class.php	/^    public function delData($dataId)$/;"	f
+delData	FieldExpandModel.class.php	/^    public function delData($fieldId)$/;"	f
+delData	FieldFormModel.class.php	/^    public function delData($fieldId)$/;"	f
+delData	FieldModel.class.php	/^    public function delData($fieldId)$/;"	f
+delData	FieldsetExpandModel.class.php	/^    public function delData($fieldsetId)$/;"	f
+delData	FieldsetFormModel.class.php	/^    public function delData($fieldsetId)$/;"	f
+delData	FieldsetModel.class.php	/^    public function delData($fieldsetId)$/;"	f
+delData	FragmentModel.class.php	/^    public function delData($fragmentId)$/;"	f
+delData	PositionModel.class.php	/^    public function delData($positionId)$/;"	f
+delData	SpecialModel.class.php	/^    public function delData($positionId)$/;"	f
+delData	TagsHasModel.class.php	/^    public function delData($map)$/;"	f
+delData	TagsModel.class.php	/^    public function delData($tagId)$/;"	f
+description	ContentModel.class.php	/^        $description = I('post.description');$/;"	v
+description	ContentModel.class.php	/^        $description=str_replace(array("\\r\\n","\\t",'&ldquo;','&rdquo;','&nbsp;'), '', $description);$/;"	v
+description	ContentModel.class.php	/^        $description=strip_tags($description);$/;"	v
+description	ContentModel.class.php	/^        $description=substr($content, 0,1000);$/;"	v
+description	ContentModel.class.php	/^        $description=substr($description, 0,250);$/;"	v
+editData	ContentModel.class.php	/^    public function editData($data){$/;"	f
+error	CategoryModel.class.php	/^                $this->error = '不可以将上一级栏目移动到子栏目';$/;"	v
+error	CategoryModel.class.php	/^            $this->error = '不可以将当前栏目设置为上一级栏目';$/;"	v
+error	ContentModel.class.php	/^                    $this->error = $expandModel->getError();$/;"	v
+error	ContentModel.class.php	/^                $this->error = $expandModel->getError();$/;"	v
+error	FieldExpandModel.class.php	/^            $this->error = $model->getError();$/;"	v
+error	FieldExpandModel.class.php	/^            $this->error = '数据不存在！';$/;"	v
+error	FieldFormModel.class.php	/^            $this->error = $model->getError();$/;"	v
+error	FieldFormModel.class.php	/^            $this->error = '数据不存在！';$/;"	v
+error	FieldsetExpandModel.class.php	/^            $this->error = $model->getError();$/;"	v
+error	FieldsetFormModel.class.php	/^            $this->error = $model->getError();$/;"	v
+error	FieldsetModel.class.php	/^            $this->error = '数据不存在！';$/;"	v
+error	FileModel.class.php	/^            $this->error = $upload->getError();$/;"	v
+expandModel	ContentModel.class.php	/^            $expandModel = D('DuxCms\/FieldData');$/;"	v
+ext	ContentToolsModel.class.php	/^            $ext=end($ext);$/;"	v
+ext	ContentToolsModel.class.php	/^            $ext=explode('.', $value);$/;"	v
+fieldId	FieldExpandModel.class.php	/^        $fieldId = $model->saveData($type);$/;"	v
+fieldId	FieldFormModel.class.php	/^        $fieldId = $model->saveData($type);$/;"	v
+fieldId	FieldModel.class.php	/^        $fieldId = I('post.field_id',0);$/;"	v
+fieldList	FieldDataModel.class.php	/^        $fieldList=D('DuxCms\/Field')->loadList('fieldset_id='.$fieldsetInfo['fieldset_id']);$/;"	v
+field_id	FieldExpandModel.class.php	/^            $this->field_id = $fieldId;$/;"	v
+field_id	FieldFormModel.class.php	/^            $this->field_id = $fieldId;$/;"	v
+fieldsetId	FieldModel.class.php	/^        $fieldsetId = I('post.fieldset_id',0);$/;"	v
+fieldsetId	FieldsetExpandModel.class.php	/^        $fieldsetId = $model->saveData($type);$/;"	v
+fieldsetId	FieldsetFormModel.class.php	/^        $fieldsetId = $model->saveData($type,true);$/;"	v
+fieldsetInfo	ContentModel.class.php	/^        $fieldsetInfo = D('DuxCms\/Fieldset')->getInfoClassId($classId);$/;"	v
+fieldsetInfo	ContentModel.class.php	/^        $fieldsetInfo = D('DuxCms\/Fieldset')->getInfoClassId($info['class_id']);$/;"	v
+fieldsetInfo	FieldModel.class.php	/^        $fieldsetInfo = D('DuxCms\/Fieldset')->getInfo($info['fieldset_id']);$/;"	v
+fieldsetInfo	FieldModel.class.php	/^        $fieldsetInfo=D('DuxCms\/Fieldset')->getInfo($data['fieldset_id']);$/;"	v
+fieldset_id	FieldsetExpandModel.class.php	/^            $this->fieldset_id = $fieldsetId;$/;"	v
+fieldset_id	FieldsetFormModel.class.php	/^            $this->fieldset_id = $fieldsetId;$/;"	v
+file	FileModel.class.php	/^                        $file = $thumbFile;$/;"	v
+file	FileModel.class.php	/^                        $file = $wateFile;$/;"	v
+file	FileModel.class.php	/^            $file = $fileDir.$info['savename'];$/;"	v
+fileData	FieldDataModel.class.php	/^                $fileData=array();$/;"	v
+fileDir	FileModel.class.php	/^            $fileDir = 'Uploads\/'.$info['savepath'];$/;"	v
+filePath	ContentToolsModel.class.php	/^        $filePath = '.\/Uploads\/'.$filesName;$/;"	v
+fileUrl	ContentToolsModel.class.php	/^        $fileUrl = __ROOT__ .'\/Uploads\/'. $filesName;$/;"	v
+filesName	ContentToolsModel.class.php	/^        $filesName = date('Y-m-d').'\/';$/;"	v
+formToken	FieldsetFormModel.class.php	/^        $formToken = trim($token);$/;"	v
+formatField	FieldDataModel.class.php	/^    public function formatField($field,$type)$/;"	f
+formatPosition	ContentModel.class.php	/^    public function formatPosition(){$/;"	f
+getDescStatus	ContentModel.class.php	/^        $getDescStatus = I('post.get_description',0,'intval');$/;"	v
+getDescription	ContentModel.class.php	/^    public function getDescription(){$/;"	f
+getFile	ContentToolsModel.class.php	/^            $getFile = $http->doGet($value,5);$/;"	v
+getFilePath	ContentToolsModel.class.php	/^            $getFilePath = $filePath.$getfileName;$/;"	v
+getFileUrl	ContentToolsModel.class.php	/^            $getFileUrl = $fileUrl.$getfileName;$/;"	v
+getImage	ContentModel.class.php	/^    public function getImage(){$/;"	f
+getImage	ContentToolsModel.class.php	/^    public function getImage($content, $num = 1)$/;"	f
+getImageNum	ContentModel.class.php	/^        $getImageNum = I('post.get_image_num',0,'intval');$/;"	v
+getImageStatus	ContentModel.class.php	/^        $getImageStatus = I('post.get_image',0,'intval');$/;"	v
+getInfo	CategoryModel.class.php	/^    public function getInfo($classId)$/;"	f
+getInfo	FieldDataModel.class.php	/^    public function getInfo($dataId)$/;"	f
+getInfo	FieldExpandModel.class.php	/^    public function getInfo($FieldId = 1)$/;"	f
+getInfo	FieldFormModel.class.php	/^    public function getInfo($FieldId = 1)$/;"	f
+getInfo	FieldModel.class.php	/^    public function getInfo($fieldId)$/;"	f
+getInfo	FieldsetExpandModel.class.php	/^    public function getInfo($FieldsetId)$/;"	f
+getInfo	FieldsetFormModel.class.php	/^    public function getInfo($fieldsetId)$/;"	f
+getInfo	FieldsetModel.class.php	/^    public function getInfo($fieldsetId)$/;"	f
+getInfo	FragmentModel.class.php	/^    public function getInfo($fragmentId)$/;"	f
+getInfo	PositionModel.class.php	/^    public function getInfo($positionId = 1)$/;"	f
+getInfo	SpecialModel.class.php	/^    public function getInfo($positionId = 1)$/;"	f
+getInfo	TagsModel.class.php	/^    public function getInfo($tagId)$/;"	f
+getInfoClassId	FieldsetModel.class.php	/^    public function getInfoClassId($classId)$/;"	f
+getKerword	ContentToolsModel.class.php	/^    public function getKerword($title, $content = '')$/;"	f
+getRemoteImage	ContentToolsModel.class.php	/^    public function getRemoteImage($content)$/;"	f
+getSubClassId	CategoryModel.class.php	/^    public function getSubClassId($classId)$/;"	f
+getUrl	CategoryModel.class.php	/^    public function getUrl($info)$/;"	f
+getUrl	ContentModel.class.php	/^    public function getUrl($info)$/;"	f
+getUrlName	CategoryModel.class.php	/^    public function getUrlName()$/;"	f
+getUrlTitle	ContentModel.class.php	/^    public function getUrlTitle(){$/;"	f
+getWhereInfo	CategoryModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	ContentModel.class.php	/^    public function getWhereInfo($where){$/;"	f
+getWhereInfo	FieldExpandModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	FieldFormModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	FieldModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	FieldsetExpandModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	FieldsetFormModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	FieldsetModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	FragmentModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getWhereInfo	TagsModel.class.php	/^    public function getWhereInfo($where)$/;"	f
+getfileName	ContentToolsModel.class.php	/^            $getfileName = $milliSecond.$key.'.'.$ext;$/;"	v
+hasData	ContentModel.class.php	/^                    $hasData = array();$/;"	v
+hasData	ContentModel.class.php	/^                $hasData = array();$/;"	v
+hasTags	ContentModel.class.php	/^    public function hasTags($keywords, $contentId){$/;"	f
+html	FieldDataModel.class.php	/^                $html='';$/;"	v
+html	FieldModel.class.php	/^        $html = '<admin:formrow title="'.$config['title'].'" tip="'.$config['tip'].'">';$/;"	v
+htmlField	FieldModel.class.php	/^    public function htmlField($config)$/;"	f
+htmlFieldFull	FieldModel.class.php	/^    public function htmlFieldFull($value,$data,$model = 'DuxCms\/Field')$/;"	f
+http	ContentToolsModel.class.php	/^        $http = new \\Common\\Util\\Http;$/;"	v
+i	CategoryModel.class.php	/^            $i = 0;$/;"	v
+i	ContentModel.class.php	/^            $i = 0;$/;"	v
+i	FieldDataModel.class.php	/^                $i = 0;$/;"	v
+i	TagsModel.class.php	/^            $i = 0;$/;"	v
+image	ContentModel.class.php	/^        $image = I('post.image');$/;"	v
+image	FileModel.class.php	/^                $image = new \\Think\\Image();$/;"	v
+img	ContentToolsModel.class.php	/^        $img = $matches[1][$num];$/;"	v
+imgArray	ContentToolsModel.class.php	/^        $imgArray = array();$/;"	v
+imgArray	ContentToolsModel.class.php	/^        $imgArray = array_unique($imgArray[2]);$/;"	v
+imgType	FileModel.class.php	/^            $imgType = array('jpg','jpeg','png','gif','bmp');$/;"	v
+info	CategoryModel.class.php	/^        $info = $this->getWhereInfo($where); $/;"	v
+info	ContentModel.class.php	/^            $info = $TagsModel->getWhereInfo($where);$/;"	v
+info	ContentModel.class.php	/^        $info = $this->getWhereInfo($map);$/;"	v
+info	ContentModel.class.php	/^        $info = $this->getWhereInfo($where); $/;"	v
+info	FieldExpandModel.class.php	/^        $info = $this->getWhereInfo($map);$/;"	v
+info	FieldFormModel.class.php	/^        $info = $this->getWhereInfo($map);$/;"	v
+info	FieldModel.class.php	/^            $info = $this->getInfo($data['field_id']);$/;"	v
+info	FieldModel.class.php	/^        $info = $this->getWhereInfo($map);$/;"	v
+info	FieldsetModel.class.php	/^            $info = $this->getInfo($data['fieldset_id']);$/;"	v
+info	FieldsetModel.class.php	/^        $info = $this->getWhereInfo($map);$/;"	v
+info	FileModel.class.php	/^        $info = $upload->upload($files);$/;"	v
+info	FileModel.class.php	/^        $info = current($info);$/;"	v
+infoHas	ContentModel.class.php	/^                $infoHas = $TagsHasModel->countList($where);$/;"	v
+itemList	FieldModel.class.php	/^        $itemList=array();$/;"	v
+key	CategoryModel.class.php	/^            foreach ($data as $key => $value) {$/;"	v
+key	CategoryModel.class.php	/^            foreach ($pageList as $key=>$value) {$/;"	v
+key	ContentModel.class.php	/^            foreach ($pageList as $key=>$value) {$/;"	v
+key	ContentToolsModel.class.php	/^        foreach($imgArray as $key =>$value)$/;"	v
+key	FieldDataModel.class.php	/^                    foreach ($data['url'] as $key => $value) {$/;"	v
+key	FieldDataModel.class.php	/^                    foreach ($list as $key => $value) {$/;"	v
+key	FieldDataModel.class.php	/^                foreach ($data as $key => $vo) {$/;"	v
+key	FieldDataModel.class.php	/^                foreach ($list as $key => $vo) {$/;"	v
+key	FieldModel.class.php	/^            foreach ($list as $key => $value) {$/;"	v
+key	TagsModel.class.php	/^            foreach ($pageList as $key=>$value) {$/;"	v
+keywords	ContentToolsModel.class.php	/^        $keywords = array();$/;"	v
+limit	CategoryModel.class.php	/^    public function loadData($where = array(), $limit = 0 ,$order="sequence ASC , class_id ASC"){$/;"	v
+limit	ContentModel.class.php	/^    public function loadList($where = array(), $limit = 50, $order = 'A.time desc,A.content_id desc'){$/;"	v
+list	CategoryModel.class.php	/^        $list=array();$/;"	v
+list	ContentModel.class.php	/^        $list=array();$/;"	v
+list	FieldDataModel.class.php	/^                $list = explode(",",trim($config));$/;"	v
+list	FieldDataModel.class.php	/^                $list=explode(",",trim($config));$/;"	v
+list	FieldDataModel.class.php	/^                $list=unserialize($data);$/;"	v
+list	FieldModel.class.php	/^                        $list = unserialize($config['value']);$/;"	v
+list	FieldModel.class.php	/^            $list = explode(',', $config['config']);$/;"	v
+list	FieldModel.class.php	/^        $list=array($/;"	v
+list	TagsModel.class.php	/^        $list = array();$/;"	v
+loadContentList	TagsHasModel.class.php	/^    public function loadContentList($where, $limit){$/;"	f
+loadCrumb	CategoryModel.class.php	/^    public function loadCrumb($classId)$/;"	f
+loadData	CategoryModel.class.php	/^    public function loadData($where = array(), $limit = 0 ,$order="sequence ASC , class_id ASC"){$/;"	f
+loadList	CategoryModel.class.php	/^    public function loadList($where = array(), $classId=0){$/;"	f
+loadList	ContentModel.class.php	/^    public function loadList($where = array(), $limit = 50, $order = 'A.time desc,A.content_id desc'){$/;"	f
+loadList	FieldDataModel.class.php	/^    public function loadList($where,$limit = 0,$order='data_id DESC'){$/;"	f
+loadList	FieldExpandModel.class.php	/^    public function loadList($where = array()){$/;"	f
+loadList	FieldFormModel.class.php	/^    public function loadList($where = array()){$/;"	f
+loadList	FieldModel.class.php	/^    public function loadList($where = array()){$/;"	f
+loadList	FieldsetExpandModel.class.php	/^    public function loadList($where = array()){$/;"	f
+loadList	FieldsetFormModel.class.php	/^    public function loadList($where = array()){$/;"	f
+loadList	FragmentModel.class.php	/^    public function loadList(){$/;"	f
+loadList	PositionModel.class.php	/^    public function loadList(){$/;"	f
+loadList	SpecialModel.class.php	/^    public function loadList(){$/;"	f
+loadList	TagsModel.class.php	/^    public function loadList($where, $limit, $order = 'tag_id DESC'){$/;"	f
+map	CategoryModel.class.php	/^        $map = array();$/;"	v
+map	ContentModel.class.php	/^        $map = array();$/;"	v
+map	FieldDataModel.class.php	/^        $map = array();$/;"	v
+map	FieldExpandModel.class.php	/^        $map = array();$/;"	v
+map	FieldFormModel.class.php	/^        $map = array();$/;"	v
+map	FieldModel.class.php	/^        $map = array();$/;"	v
+map	FieldsetExpandModel.class.php	/^        $map = array();$/;"	v
+map	FieldsetFormModel.class.php	/^        $map = array();$/;"	v
+map	FieldsetModel.class.php	/^        $map = array();$/;"	v
+map	FragmentModel.class.php	/^        $map = array();$/;"	v
+map	PositionModel.class.php	/^        $map = array();$/;"	v
+map	SpecialModel.class.php	/^        $map = array();$/;"	v
+map	TagsModel.class.php	/^        $map = array();$/;"	v
+milliSecond	ContentToolsModel.class.php	/^        $milliSecond = date("dHis") . '_';$/;"	v
+model	FieldExpandModel.class.php	/^        $model = D('DuxCms\/Field');$/;"	v
+model	FieldFormModel.class.php	/^        $model = D('DuxCms\/Field');$/;"	v
+model	FieldsetExpandModel.class.php	/^        $model = D('DuxCms\/Fieldset');$/;"	v
+model	FieldsetFormModel.class.php	/^        $model = D('DuxCms\/Fieldset');$/;"	v
+modelInfo	CategoryModel.class.php	/^                $modelInfo = $modelList[$value['app']];$/;"	v
+modelList	CategoryModel.class.php	/^        $modelList = getAllService('ContentModel','');$/;"	v
+name	CategoryModel.class.php	/^            $name = preg_replace($pattern, '', $name);$/;"	v
+name	CategoryModel.class.php	/^            $name = preg_replace('\/\\s+\/', '-', $name);$/;"	v
+name	CategoryModel.class.php	/^        $name = I('post.name');$/;"	v
+name	ContentModel.class.php	/^            $name = preg_replace($pattern, '', $name);$/;"	v
+name	ContentModel.class.php	/^            $name = preg_replace('\/\\s+\/', '-', $name);$/;"	v
+name	ContentModel.class.php	/^        $name = I('post.title');$/;"	v
+newList	FieldDataModel.class.php	/^                $newList = array();$/;"	v
+num	ContentToolsModel.class.php	/^        $num = $num -1;$/;"	v
+num	ContentToolsModel.class.php	/^    public function getImage($content, $num = 1)$/;"	v
+order	TagsModel.class.php	/^    public function loadList($where, $limit, $order = 'tag_id DESC'){$/;"	v
+output	ContentToolsModel.class.php	/^        $output = preg_match_all('\/<img.+src=[\\'"]([^\\'"]+)[\\'"].*>\/i', $content, $matches);$/;"	v
+pageList	CategoryModel.class.php	/^        $pageList = $this->where($where)->limit($limit)->order($order)->select();$/;"	v
+pageList	ContentModel.class.php	/^        $pageList = $this->table("__CONTENT__ as A")$/;"	v
+pageList	TagsModel.class.php	/^        $pageList = $this->where($where)->limit($limit)->order($order)->select();$/;"	v
+parentCheck	CategoryModel.class.php	/^    public function parentCheck()$/;"	f
+parentId	CategoryModel.class.php	/^        $parentId = I('post.parent_id');$/;"	v
+pattern	CategoryModel.class.php	/^            $pattern = '\/[^\\x{4e00}-\\x{9fa5}\\d\\w\\-]+\/u';$/;"	v
+pattern	ContentModel.class.php	/^            $pattern = '\/[^\\x{4e00}-\\x{9fa5}\\d\\w\\-]+\/u';$/;"	v
+pinyin	CategoryModel.class.php	/^            $pinyin = new \\Common\\Util\\Pinyin();$/;"	v
+pinyin	ContentModel.class.php	/^            $pinyin = new \\Common\\Util\\Pinyin();$/;"	v
+position	ContentModel.class.php	/^        $position = I('post.position');$/;"	v
+property	FieldModel.class.php	/^        $property = $propertyField[$typeData['property']];$/;"	v
+propertyField	FieldModel.class.php	/^        $propertyField = $this->propertyField();$/;"	v
+propertyField	FieldModel.class.php	/^    public function propertyField()$/;"	f
+revertField	FieldDataModel.class.php	/^    public function revertField($data,$type,$config)$/;"	f
+ruleVerify	FieldModel.class.php	/^    public function ruleVerify()$/;"	f
+ruleVerifyJs	FieldModel.class.php	/^    public function ruleVerifyJs()$/;"	f
+saveData	CategoryModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	ContentModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	FieldDataModel.class.php	/^    public function saveData($type = 'add' , $fieldsetInfo){$/;"	f
+saveData	FieldExpandModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	FieldFormModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	FieldModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	FieldsetExpandModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	FieldsetFormModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	FieldsetModel.class.php	/^    public function saveData($type = 'add' ,$autoKey = false){$/;"	f
+saveData	FragmentModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	PositionModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	SpecialModel.class.php	/^    public function saveData($type = 'add'){$/;"	f
+saveData	TagsModel.class.php	/^    public function saveData($type = 'add',$data){$/;"	f
+saveExtData	ContentModel.class.php	/^    public function saveExtData($data){$/;"	f
+setTable	FieldDataModel.class.php	/^    public function setTable($name) {$/;"	f
+setToken	FieldsetFormModel.class.php	/^    public function setToken($table)$/;"	f
+showListField	FieldDataModel.class.php	/^    public function showListField($data,$type,$config)$/;"	f
+sql	FieldModel.class.php	/^                $sql="$/;"	v
+sql	FieldModel.class.php	/^            $sql = $this->execute($sqlText);$/;"	v
+sql	FieldModel.class.php	/^        $sql="$/;"	v
+sql	FieldsetModel.class.php	/^            $sql=" CREATE TABLE IF NOT EXISTS `__PREFIX__ext_".$data['table']."` ( ";$/;"	v
+sql	FieldsetModel.class.php	/^            $sql="$/;"	v
+sql	FieldsetModel.class.php	/^        $sql="$/;"	v
+sqlText	FieldModel.class.php	/^            $sqlText="$/;"	v
+status	CategoryModel.class.php	/^            $status = $this->save();$/;"	v
+status	ContentModel.class.php	/^            $status = $this->save();$/;"	v
+status	ContentModel.class.php	/^        $status = $this->where($map)->delete();$/;"	v
+status	FieldDataModel.class.php	/^            $status = $this->where('data_id='.$data['data_id'])->save();$/;"	v
+status	FieldExpandModel.class.php	/^            $status = $this->add();$/;"	v
+status	FieldExpandModel.class.php	/^            $status = $this->where('field_id='.$data['field_id'])->save();$/;"	v
+status	FieldExpandModel.class.php	/^        $status = $model->delData($fieldId);$/;"	v
+status	FieldExpandModel.class.php	/^        $status = $this->where($map)->delete();$/;"	v
+status	FieldFormModel.class.php	/^            $status = $this->add();$/;"	v
+status	FieldFormModel.class.php	/^            $status = $this->where('field_id='.$data['field_id'])->save();$/;"	v
+status	FieldFormModel.class.php	/^        $status = $model->delData($fieldId);$/;"	v
+status	FieldFormModel.class.php	/^        $status = $this->where($map)->delete();$/;"	v
+status	FieldModel.class.php	/^            $status = $this->where('field_id='.$data['field_id'])->data($data)->save();$/;"	v
+status	FieldsetExpandModel.class.php	/^            $status = $this->add();$/;"	v
+status	FieldsetExpandModel.class.php	/^            $status = $this->where('fieldset_id='.$data['fieldset_id'])->save();$/;"	v
+status	FieldsetExpandModel.class.php	/^        $status = $model->delData($fieldsetId);$/;"	v
+status	FieldsetExpandModel.class.php	/^        $status = $this->where($map)->delete();$/;"	v
+status	FieldsetFormModel.class.php	/^            $status = $this->add();$/;"	v
+status	FieldsetFormModel.class.php	/^            $status = $this->where('fieldset_id='.$data['fieldset_id'])->save();$/;"	v
+status	FieldsetFormModel.class.php	/^        $status = $model->delData($fieldsetId);$/;"	v
+status	FieldsetFormModel.class.php	/^        $status = $this->where($map)->delete();$/;"	v
+status	FieldsetModel.class.php	/^            $status = $this->where('fieldset_id='.$data['fieldset_id'])->data($data)->save();$/;"	v
+status	FileModel.class.php	/^                    $status = $image->thumb(C('THUMB_WIDTH'), C('THUMB_HEIGHT'), C('THUMB_TYPE'))->save(ROOT_PATH . $thumbFile);$/;"	v
+status	FileModel.class.php	/^                    $status = $image->water(ROOT_PATH . 'Public\/watermark\/'.C('WATER_IMAGE'),C('WATER_POSITION'))->save(ROOT_PATH . $wateFile);$/;"	v
+status	FragmentModel.class.php	/^            $status = $this->save();$/;"	v
+status	PositionModel.class.php	/^            $status = $this->save();$/;"	v
+status	SpecialModel.class.php	/^            $status = $this->save();$/;"	v
+status	TagsModel.class.php	/^            $status = $this->where('tag_id='.$data['tag_id'])->save($data);$/;"	v
+statusSql	FieldModel.class.php	/^                $statusSql = $this->execute($sql);$/;"	v
+statusSql	FieldModel.class.php	/^        $statusSql = $this->execute($sql);$/;"	v
+statusSql	FieldsetModel.class.php	/^            $statusSql = $this->execute($sql);$/;"	v
+statusSql	FieldsetModel.class.php	/^        $statusSql = $this->execute($sql);$/;"	v
+str	ContentModel.class.php	/^        $str = $keywords;$/;"	v
+str	ContentModel.class.php	/^        $str = str_replace(' ', ',', $str);$/;"	v
+str	ContentModel.class.php	/^        $str = str_replace('，', ',', $str);$/;"	v
+strArray	ContentModel.class.php	/^        $strArray = explode(",", $str);$/;"	v
+tableName	FieldDataModel.class.php	/^            $this->tableName = $this->tableName;$/;"	v
+tagId	ContentModel.class.php	/^                $tagId = $TagsModel->saveData('add',$data);$/;"	v
+thumbFile	FileModel.class.php	/^                    $thumbFile = $fileDir.'thumb_'.$info['savename'];$/;"	v
+token	FieldsetFormModel.class.php	/^        $token = md5(microtime(true));$/;"	v
+token	FieldsetFormModel.class.php	/^        $token = session('form_'.$table);$/;"	v
+trueTableName	FieldDataModel.class.php	/^        $this->trueTableName = $this->tablePrefix.'ext_'.$name;$/;"	v
+type	ContentModel.class.php	/^                $type = 'add';$/;"	v
+type	ContentModel.class.php	/^                $type = 'edit';$/;"	v
+typeData	FieldModel.class.php	/^        $typeData = $typeField[$data['type']];$/;"	v
+typeField	FieldModel.class.php	/^        $typeField = $this->typeField();$/;"	v
+typeField	FieldModel.class.php	/^        $typeField=$this->typeField();$/;"	v
+typeField	FieldModel.class.php	/^    public function typeField()$/;"	f
+typeVerify	FieldModel.class.php	/^    public function typeVerify()$/;"	f
+upload	FileModel.class.php	/^        $upload = new \\Think\\Upload($config,'Local');$/;"	v
+uploadData	FileModel.class.php	/^    public function uploadData($files, $config = array())$/;"	f
+urlName	CategoryModel.class.php	/^            $urlName = substr($pinyin->output($name, true),0,30);$/;"	v
+urlName	CategoryModel.class.php	/^            $urlName = trim($urlName,'-');$/;"	v
+urlName	CategoryModel.class.php	/^        $urlName = I('post.urlname');$/;"	v
+urlTitle	ContentModel.class.php	/^            $urlTitle = substr($pinyin->output($name, true),0,30);$/;"	v
+urlTitle	ContentModel.class.php	/^            $urlTitle = trim($urlTitle,'-');$/;"	v
+urlTitle	ContentModel.class.php	/^        $urlTitle = I('post.urltitle');$/;"	v
+valiRules	FieldDataModel.class.php	/^        $valiRules = array();$/;"	v
+validToken	FieldsetFormModel.class.php	/^    public function validToken($table, $token)$/;"	f
+validateField	FieldModel.class.php	/^    public function validateField($field)$/;"	f
+value	ContentToolsModel.class.php	/^            $value = trim($value);$/;"	v
+verifyHtml	FieldModel.class.php	/^            $verifyHtml = 'datatype="'.$config['verify_data_js'].'" errormsg="'.$config['errormsg'].'"';$/;"	v
+verify_data	FieldDataModel.class.php	/^            $verify_data = base64_decode($value['verify_data']);$/;"	v
+wateFile	FileModel.class.php	/^                    $wateFile = $fileDir.'wate_'.$info['savename'];$/;"	v
+where	CategoryModel.class.php	/^        $where = array();$/;"	v
+where	ContentModel.class.php	/^                $where = array();$/;"	v
+where	ContentModel.class.php	/^            $where = array();$/;"	v
+where	ContentModel.class.php	/^        $where = array();$/;"	v
